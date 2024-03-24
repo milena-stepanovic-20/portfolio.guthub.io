@@ -1,0 +1,146 @@
+/*HEADING*/
+
+body {
+    background-color: #000000;
+    margin: 0;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    margin: 0;
+    padding-top: 15px;
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color:rgb(0, 0, 0, 50%);
+    padding-bottom: 5px;
+
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+    margin: 0;
+    width: 200px;
+    padding-bottom: 10px;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: white;
+    margin: 0;
+}
+
+#naslov {
+    margin-left: 20px;
+    
+}
+
+#meni {
+    justify-self: end;
+    margin-right: 20px;
+    /*margin: 0 20px 0 0; u smeru kazaljke na satu od gornje
+    margin: 0 20px; gore i dole 0 levo i desno 20px*/
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: gray;
+}
+
+/*MAIN*/
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+    margin: 0;
+    padding: 10px 0 0 0;
+}
+
+main {
+    display: grid;
+    grid-template-columns: auto auto;
+    /* moze i 50vw auto auto 10vw i ostale kominacije
+    za pravna polja moze prazne divove*/
+    margin: 12vh 10vw;
+    grid-column-gap: 2vw;
+    grid-row-gap: 1vw;
+}
+
+
+
+/*da bi bio responsivan stavljamo vw/vh ili % da bi bilo za sve ekrnae oukej 
+% koliko je sto posto od parent elementa u svoj divu npr
+a vh i vw ukupna povrsina ekrana */
+
+.projekat img {
+    width: 100%;
+}
+
+.projekat:hover {
+    opacity: 60%;
+    cursor: pointer;
+    transition-duration: 150ms;
+}
+
+/*FOOTER*/
+
+footer {
+    text-align: center;
+    margin: 30px;
+    
+}
+
+footer p{
+    font-size: 1vw;
+}
+
+
+.modeling img {
+    width: 100%;
+}
+
+
+
+ #model{
+    display: grid;
+    grid-template-columns: auto auto auto  ;
+    /* moze i 50vw auto auto 10vw i ostale kominacije
+    za pravna polja moze prazne divove*/
+    margin: 12vh 10vw;
+    grid-column-gap: 2vw;
+    grid-row-gap: 1vw;
+}
+
+.kod:hover {
+    margin-left: 3px;
+}
+
+.kod:hover {
+    color: gray;
+}
+
+.poc {
+    
+   font-size: 35vh;
+}
+
+#mil {
+    padding: 1vw;
+}
+
+#uvod {
+    margin: 12vh 10vw;
+}
+
+#omeni img{
+    width: 30vw;
+}
