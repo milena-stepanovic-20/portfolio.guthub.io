@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#glavni {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+}
+/*
+.deo {
+  margin: 0;
+  padding: 0;
+  background-color: brown;
+  width: 100vw;
+  width: 100vw;
+  height: 33.33vh;
+}
+*/
+#omeni {
+  position: absolute;
+  top: 20vh;
+  left: 20vw;
+  font-size: 20px;
+}
+
+#projekti {
+  position: absolute;
+  top: 50vh;
+  left: 50vw;
+  font-size: 20px;
+}
+
+#kontakt {
+  position: absolute;
+  bottom: 20vh;
+  right: 20vw;
+  font-size: 20px;
+}
+#japaja p {
+  position: absolute;
+  top: 50%;
+  width: 50%;
+  text-align: center;
+  font-size: 20px;
+  padding: 10vh;
+}
+#japaja img {
+  width: 30vw;
+}
+
+#japaja {
+  margin-left: 30vw;
+  margin-top: 10vh;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: auto auto;
+  width: 100vw;
+  height: 100vh;
+}
+.container div {
+  background-color: #ffffff;
+  border: 1px solid black;
+
+  font-size: 30px;
+  text-align: center;
+  width: 50vw;
+}
+
+.container img {
+  width: 50vw;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.container p {
+  padding: 5vw;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.klik {
+  color: forestgreen;
+}
+a:hover {
+  color: deeppink;
+}
+
+.proja {
+  font-size: 100px;
+  padding: 5vw;
+}
